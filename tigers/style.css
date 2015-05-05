@@ -1,0 +1,98 @@
+/* 全般設定 */
+body {background-color: #FFFFEE; font-weight: normal; font-size: 10pt; font-family: "Trebuchet MS",Verdana, Arial, Helvetica, sans-serif; margin: 0px;}
+table {width: 100%; margin: 0; padding: 0; font-size: 12px}
+table td {padding: 0; border-width: 0; font-family: Verdana, Arial, Helvetica, sans-serif;}
+/* 一般タグの設定 */
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+ul { margin: 2px; padding: 2px; list-style: decimal inside; text-align: left;}
+li { margin-left: 2px; list-style: square inside; color: #000000}
+.item {border: 1px solid #333333;}
+.itemHead {padding: 3px; background-color: #000000; color: #FFFFFF;}
+.itemHead a:link{color: #FFFFFF;}
+.itemHead a:visited{color: #DDDDDD;}
+.itemInfo {text-align: right; padding: 3px; background-color: #FFE600;}
+.itemTitle a {font-size: 130%; font-weight: bold; font-variant: small-caps; color: #ffffff; background-color: transparent;}
+.itemPoster {font-size: 90%;}
+.itemPostDate {font-size: 90%;}
+.itemStats {font-size: 90%;}
+.itemBody {padding-left: 5px;}
+.itemText {margin-top: 5px; margin-bottom: 5px; line-height: 1.5em;}
+.itemText:first-letter {font-size: 133%; font-weight: bold;}
+.itemFoot {text-align: right; padding: 3px; background-color: #FFFF99;}
+.itemAdminLink {font-size: 90%;}
+.itemPermaLink {font-size: 90%; font-style:italic;}
+a:link {color: #222222; text-decoration: none; font-weight: bold; background-color: transparent;}
+a:visited {color: #333333; text-decoration: none; font-weight: bold; background-color: transparent;}
+a:hover {color: #FF0000; text-decoration: underline; background-color: transparent;}
+th {background-color: #222222; padding : 2px; vertical-align : middle; font-family: Verdana, Arial, Helvetica, sans-serif; color:#FFFFFF;}
+th a:link{color:#FFFFFF;}
+th a:visited{color:#DDDDDD;}
+/*ヘッダーブロックの定義*/
+td#headerbar {border-bottom: 1px solid #cc9900;border-top: 1px solid #ffff99; background-color: #ffcc00;}
+td#logobar {background-image: url('back.gif'); border-top: 1px solid #000000; border-bottom: 1px solid #000000; background-color: #455AB8;}
+/*左側ブロックの定義*/
+td#leftcolumn {color: #FFFFFF; width: 170px; border-left:1px solid #FFFFFF; border-right:1px solid #333333; font-size:12px; background-color: #FFE600; vertical-align:top;}
+td#leftcolumn div.blockTitle {padding: 5px; background-color: #000000; vertical-align: middle; border-bottom: 1px solid #FFFFFF; border-top: 1px solid #FFFFFF; color: #FFFFFF; font-weight: bold;}
+td#leftcolumn div.blockContent {padding: 0px 0px 0px 15px; line-height: 120%; margin: 0px 0px 5px 0px;color:#000000;}
+/*右ブロックの定義*/
+td#rightcolumn {width: 170px; border-left: 1px solid #FF0000; font-size:11px; background-color: transparent; vertical-align:top;}
+td#rightcolumn div.blockTitle {padding: 3px; background-color: #FF0000; color: #FFFFFF; font-weight: bold; border-top: 1px solid #FBBE8C}
+td#rightcolumn div.blockContent {padding: 3px 0px 3px 15px; line-height: 130%; margin: 0px 0px 5px 0px;}
+/*中央ブロックの定義*/
+td#centercolumn {font-size: 12px; vertical-align:top;}
+td#centerCcolumn div.blockTitle {border:2px solid #000000; background:#333333; color: #FFE600; padding: 5px; font-weight: bold; margin: 2px;}
+td#centerCcolumn div.blockContent {padding: 3px; margin-right: 0px; margin-left: 0px; margin-bottom: 2px; line-height: 120%;}
+/*中央ブロック左の定義*/
+td#centerLcolumn {width: 50%; padding: 0px 3px 0px 0px;}
+td#centerLcolumn div.blockTitle {border:2px solid #000000; background:#333333; color: #FFE600; padding: 3px; font-weight: bold; margin-top: 0px;}
+td#centerLcolumn div.blockContent {border-left: 1px solid #333333; border-right: 1px solid #333333; border-bottom: 1px solid #333333; padding: 3px; margin-bottom: 2px; line-height: 120%;}
+/*中央ブロック右の定義*/
+td#centerRcolumn {width: 50%; padding: 0px 3px 0px 0px;}
+td#centerRcolumn div.blockTitle {border:2px solid #000000; background:#333333; color: #FFE600; padding: 3px; font-weight: bold; margin-top: 0px;}
+td#centerRcolumn div.blockContent {border-left: 1px solid #333333; border-right: 1px solid #333333; border-bottom: 1px solid #333333; padding: 3px; margin-bottom: 2px; line-height: 120%;}
+div#content {text-align: left; padding: 8px;}
+/*フッターブロックの定義*/
+tr#footerbar {text-align:center; background-color: #000000; color: #FFFFFF;}
+/*メインメニューの定義*/
+td#mainmenu a {background-color: #474747; display: block; margin: 0px; padding: 4px; border-left: 1px solid #FFFFFF; border-bottom: 1px solid #FFFFFF;}
+td#mainmenu a:link {color: #FFFFFF; text-decoration: none; background-color: #474747;}
+td#mainmenu a:visited {color: #EEEEEE; text-decoration: none; background-color: #474747;}
+td#mainmenu a:hover {color: #FFFFFF; background-color: #FF8E3B;}
+td#mainmenu a.menuTop {border-top: 0px solid #FFFFFF;}
+td#mainmenu a.menuMain {padding-left: 3px; border-bottom: 1px solid #FFFFFF; border-left: 1px solid #FFFFFF;}
+td#mainmenu a.menuSub {padding-left: 12px; border-bottom: 1px solid #FFFFFF; border-left: 1px solid #FFFFFF;}
+/*ユーザーブロックの定義*/
+td#usermenu a {background-color: #474747; display: block; margin: 0px; padding: 4px; border-left: 1px solid #FFFFFF; border-bottom: 1px solid #FFFFFF;}
+td#usermenu a:link {color: #FFFFFF; text-decoration: none; background-color: #474747;}
+td#usermenu a:visited {color: #EEEEEE; text-decoration: none; background-color: #474747;}
+td#usermenu a:hover {color: #FFFFFF; background-color: #7486D7;}
+td#usermenu a.menuTop {border-top: 0px solid #FFFFFF;}
+td#usermenu a.highlight {background-color: #FFFFFF;}
+.outer {border: 1px solid #333333;}
+.head {background-color: #BBBBBB; padding: 5px; font-weight: bold;}
+.even {background-color: #FFFFFF; padding: 5px; color: #999999;}
+.odd {background-color: #DFDFDF; padding: 5px;}
+.foot {background-color: #BBBBBB; padding: 5px; font-weight: bold;}
+tr.even td {background-color: #FFFFFF; padding: 5px;}
+tr.odd td {background-color: #DFDFDF; padding: 5px;}
+div.errorMsg { background-color: #FFCCCC; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.confirmMsg { background-color: #DDFFDF; color: #136C99; text-align: center; border: 1px solid #7486D7; font-weight: bold; padding: 10px;}
+div.resultMsg { background-color : #7486D7; color: #333333; text-align: center; border-top: 1px solid #7486D7; border-left: 1px solid #7486D7; font-weight: bold; border-right: 1px solid #7486D7; border-bottom: 1px solid #7486D7; padding: 10px;}
+div.xoopsCode { background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+div.xoopsQuote { background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {padding: 2px;}
+.comUserStat {font-size: 10px; color: #7486D7; font-weight:bold; border: 1px solid #7486D7; background-color: #ffffff; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; color: #2F5376; font-weight:bold; font-size: 10px;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: 10px;font-weight:bold;}
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic; font-size: smaller}
+.comDateCaption {font-weight: bold; font-style: normal;}
